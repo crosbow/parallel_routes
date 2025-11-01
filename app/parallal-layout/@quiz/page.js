@@ -1,4 +1,7 @@
-const QuizPage = () => {
+import wait from "@/app/lib/wait";
+
+const QuizPage = async () => {
+  await wait(2000);
   return (
     <div>
       <h2 className="text-5xl text-violet-600"> Quiz </h2>

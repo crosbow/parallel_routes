@@ -1,4 +1,10 @@
-const AssignmentPage = () => {
+import wait from "@/app/lib/wait";
+
+const AssignmentPage = async () => {
+  await wait(1000);
+
+  throw new Error("Test error, don't worry");
+
   return (
     <div>
       <h2 className="text-5xl text-violet-600"> Assignment </h2>

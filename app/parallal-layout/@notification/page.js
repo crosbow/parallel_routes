@@ -1,4 +1,8 @@
-const NotificationPage = () => {
+import wait from "@/app/lib/wait";
+
+const NotificationPage = async () => {
+  await wait(3000);
+
   return (
     <div>
       <h2 className="text-5xl text-violet-600"> Notification </h2>
