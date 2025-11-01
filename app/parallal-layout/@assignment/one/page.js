@@ -5,7 +5,7 @@ const AssignmentPage = async () => {
 
   return (
     <div>
-      <h2 className="text-5xl text-violet-600"> Assignment </h2>
+      <h2 className="text-5xl text-violet-600"> Assignment 1 </h2>
       <p className="mt-4 text-gray-400">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi qui
         libero reiciendis temporibus sunt quos aperiam, corrupti quasi est
